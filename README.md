@@ -7,8 +7,7 @@ A modern, cross-platform news application built with Flutter. This app allows us
 - Browse news by categories (e.g., Technology, Sports, Business, Entertainment)
 - Search for articles by keywords
 - Beautiful and responsive UI for both mobile and web
-- Save favorite articles for offline reading
-- Dark and light mode support
+
 
 ## Getting Started
 1. Clone the repository.
