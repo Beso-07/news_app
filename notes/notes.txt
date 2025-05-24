@@ -1,0 +1,32 @@
+ عشان اخلي صوره باك جروند للكونتينر ياستخدم الكود ده جوه الكونتينر   -->
+
+Container(
+  width: double.infinity,  // جعل العرض يملأ الشاشة
+  height: 200,  // ارتفاع محدد
+  decoration: BoxDecoration(
+    image: DecorationImage(
+      image: AssetImage('assets/background.jpg'),  // الصورة من مجلد assets
+      fit: BoxFit.cover,  // لجعل الصورة تغطي الـ Container بالكامل
+    ),
+    borderRadius: BorderRadius.circular(16) // بيخلي زوايا الكونتينر مستديره
+  ),
+)
+---------------------------------
+ويدجت بستخدمها عشان اعدل على حواف الزوايا مثلا للصوره او كونتينر --> (ClipRRect)
+ClipRRect(
+          borderRadius: BorderRadius.circular(16),
+          child: Image.assets(
+            'assets/images/new.jpg',
+            width: 380,
+            height: 220,
+            fit: BoxFit.fill,
+          ),
+        ),
+----------------------------------
+Text(
+      'data',
+      maxLines: 2,                        -->
+          ( بتخلي التيكست سطرين بس والباقي مش هيبان )
+      overflow: TextOverflow.ellipsis,    -->  
+          ( لو التيكست اكتر من سطرين هتحط 3 نقط عشان تعرف اني فى تكمله للتيكست )
+    ),
