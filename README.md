@@ -1,16 +1,21 @@
-# news_app
+# 📰 News App
 
-A new Flutter project.
+A modern, cross-platform news application built with Flutter. This app allows users to stay updated with the latest news from various sources, browse articles by category, and read full stories in a clean, user-friendly interface.
+
+## Features
+- Fetches real-time news from popular APIs
+- Browse news by categories (e.g., Technology, Sports, Business, Entertainment)
+- Search for articles by keywords
+- Beautiful and responsive UI for both mobile and web
+- Save favorite articles for offline reading
+- Dark and light mode support
 
 ## Getting Started
+1. Clone the repository.
+2. Run `flutter pub get` to install dependencies.
+3. Add your news API key in the appropriate file (see documentation).
+4. Run the app on your preferred device or emulator.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Feel free to contribute or open issues to help improve the app!
